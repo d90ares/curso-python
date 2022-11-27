@@ -42,6 +42,7 @@ def calcul():
     while True:
         limpa_tela()
         i = 0
+        result = 0
         for op, name in operations.items():
             print(i, ":", name)
             i += 1
